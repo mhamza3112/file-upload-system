@@ -1,0 +1,21 @@
+{
+  "name": "file-upload-system",
+  "version": "1.0.0",
+  "description": "Secure file upload system using Node.js, Multer and Firebase Storage",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["nodejs", "file-upload", "firebase", "multer"],
+  "author": "Muhammad Hamza",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "firebase-admin": "^13.8.0",
+    "multer": "^2.1.1"
+  }
+}
